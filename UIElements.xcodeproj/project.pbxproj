@@ -17,6 +17,7 @@
 		1A8817D71E63C90B007A7EF8 /* UIView_IBDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8817D61E63C90B007A7EF8 /* UIView_IBDesignable.swift */; };
 		1A8817D91E63D468007A7EF8 /* UITextField_IBDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8817D81E63D468007A7EF8 /* UITextField_IBDesignable.swift */; };
 		1A97066B1E63D98400F7B60C /* UIImageView_IBDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97066A1E63D98400F7B60C /* UIImageView_IBDesignable.swift */; };
+		1AD56D081E6429AD00675836 /* UIButton_IBDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD56D071E6429AD00675836 /* UIButton_IBDesignable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		1A8817D61E63C90B007A7EF8 /* UIView_IBDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_IBDesignable.swift; sourceTree = "<group>"; };
 		1A8817D81E63D468007A7EF8 /* UITextField_IBDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField_IBDesignable.swift; sourceTree = "<group>"; };
 		1A97066A1E63D98400F7B60C /* UIImageView_IBDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_IBDesignable.swift; sourceTree = "<group>"; };
+		1AD56D071E6429AD00675836 /* UIButton_IBDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton_IBDesignable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				1A8817D61E63C90B007A7EF8 /* UIView_IBDesignable.swift */,
 				1A8817D81E63D468007A7EF8 /* UITextField_IBDesignable.swift */,
 				1A97066A1E63D98400F7B60C /* UIImageView_IBDesignable.swift */,
+				1AD56D071E6429AD00675836 /* UIButton_IBDesignable.swift */,
 				1A8817AC1E63C8DB007A7EF8 /* Main.storyboard */,
 				1A8817AF1E63C8DB007A7EF8 /* Assets.xcassets */,
 				1A8817B11E63C8DB007A7EF8 /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 				1A8817D71E63C90B007A7EF8 /* UIView_IBDesignable.swift in Sources */,
 				1A8817AB1E63C8DB007A7EF8 /* ViewController.swift in Sources */,
 				1A8817A91E63C8DB007A7EF8 /* AppDelegate.swift in Sources */,
+				1AD56D081E6429AD00675836 /* UIButton_IBDesignable.swift in Sources */,
 				1A97066B1E63D98400F7B60C /* UIImageView_IBDesignable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
