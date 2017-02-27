@@ -19,4 +19,14 @@ class UIImageView_IBDesignable: UIImageView {
         self.image = tintedImage
         self.tintColor = imageColor
     }
+    
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
 }

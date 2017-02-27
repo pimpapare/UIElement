@@ -43,7 +43,6 @@ class UIView_IBDesignable: UIView {
     }
     
     //ref. http://stackoverflow.com/questions/24380535/how-to-apply-gradient-to-background-view-of-ios-swift-app
-    
     @IBInspectable var shadowRadius: CGFloat = 2.0{ didSet { addShadow() }}
     @IBInspectable var shadowOpacity: Float = 1{ didSet { addShadow() }}
     @IBInspectable var shadowColor: UIColor = UIColor.black{ didSet { addShadow() }}
