@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class UITextField_IBDesignable: UITextField {
+class UITextFieldExtension: UITextField {
     
     @IBInspectable var cornerRadius: CGFloat {
         get {
@@ -48,9 +48,9 @@ class UITextField_IBDesignable: UITextField {
         self.attributedPlaceholder = str
     }
     
-    @IBInspectable var inset: CGFloat = 0
+    @IBInspectable var insetPadding: CGFloat = 0
     override func textRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: inset, dy: 0)
+        return bounds.insetBy(dx: insetPadding, dy: 0)
     }
     
     override func editingRect(forBounds bounds: CGRect) -> CGRect {

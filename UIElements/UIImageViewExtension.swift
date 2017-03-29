@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class UIImageView_IBDesignable: UIImageView {
+class UIImageViewExtension: UIImageView {
 
     @IBInspectable var imageColor: UIColor? = UIColor.gray{ didSet { setTintImage() }}
 

@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class UIView_IBDesignable: UIView {
+class UIViewExtension: UIView {
     
     //ref. https://github.com/rpzzzzzz/IBDesignableView
     @IBInspectable var cornerRadius: CGFloat {
@@ -46,10 +46,10 @@ class UIView_IBDesignable: UIView {
     @IBInspectable var shadowRadius: CGFloat = 2.0{ didSet { addShadow() }}
     @IBInspectable var shadowOpacity: Float = 1{ didSet { addShadow() }}
     @IBInspectable var shadowColor: UIColor = UIColor.black{ didSet { addShadow() }}
-
+    
     func addShadow(){
         layer.shadowOpacity = shadowOpacity
-        layer.shadowOffset = CGSize(width: 3.0, height: 2.0)
+        layer.shadowOffset = CGSize(width: 0, height: 1.0)
         layer.shadowRadius = shadowRadius
         layer.shadowColor = shadowColor.cgColor
     }

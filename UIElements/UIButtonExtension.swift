@@ -9,19 +9,28 @@
 import UIKit
 
 @IBDesignable
-class UIButton_IBDesignable: UIButton {
+class UIButtonExtension: UIButton {
 
     @IBInspectable var bgAlpha: CGFloat? = 0.4{ didSet { setBackgroundAlpha() }}
-    @IBInspectable var color: UIColor? = UIColor.red{ didSet { setBackgroundAlpha() }}
+    @IBInspectable var color: UIColor? = UIColor.white{ didSet { setBackgroundAlpha() }}
+    @IBInspectable var colorBorder: UIColor? = UIColor.red{ didSet { setBackgroundAlpha() }}
+    @IBInspectable var borderWidth: CGFloat? = 1{ didSet { setBorder() }}
 
     func setBackgroundAlpha() {
         
         self.backgroundColor = color?.withAlphaComponent(bgAlpha!)
     }
     
+    func setBorder(){
+        
+        self.layer.borderWidth = borderWidth!
+        self.layer.borderColor = colorBorder?.cgColor
+    }
+    
     override func layoutIfNeeded() {
         super.layoutSubviews()
         setBackgroundAlpha()
+        setBorder()
     }
     
     @IBInspectable var cornerRadius: CGFloat {
@@ -33,4 +42,5 @@ class UIButton_IBDesignable: UIButton {
             layer.masksToBounds = newValue > 0
         }
     }
+    
 }
