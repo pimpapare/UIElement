@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A035B3F1E9B64A400C32F6C /* BaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A035B3E1E9B64A400C32F6C /* BaseFunction.swift */; };
 		1A466B221E66AE99005389C2 /* UIActivityIndicatorViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A466B211E66AE99005389C2 /* UIActivityIndicatorViewExtension.swift */; };
 		1A8817A91E63C8DB007A7EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8817A81E63C8DB007A7EF8 /* AppDelegate.swift */; };
 		1A8817AB1E63C8DB007A7EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8817AA1E63C8DB007A7EF8 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A035B3E1E9B64A400C32F6C /* BaseFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFunction.swift; sourceTree = "<group>"; };
 		1A466B211E66AE99005389C2 /* UIActivityIndicatorViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewExtension.swift; sourceTree = "<group>"; };
 		1A8817A51E63C8DB007A7EF8 /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8817A81E63C8DB007A7EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,13 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				1A8817A81E63C8DB007A7EF8 /* AppDelegate.swift */,
-				1A8817AA1E63C8DB007A7EF8 /* ViewController.swift */,
+				1A035B3E1E9B64A400C32F6C /* BaseFunction.swift */,
 				1A8817D61E63C90B007A7EF8 /* UIViewExtension.swift */,
 				1A8817D81E63D468007A7EF8 /* UITextFieldExtension.swift */,
 				1A97066A1E63D98400F7B60C /* UIImageViewExtension.swift */,
 				1AD56D071E6429AD00675836 /* UIButtonExtension.swift */,
 				1A466B211E66AE99005389C2 /* UIActivityIndicatorViewExtension.swift */,
 				1A8817AC1E63C8DB007A7EF8 /* Main.storyboard */,
+				1A8817AA1E63C8DB007A7EF8 /* ViewController.swift */,
 				1A8817AF1E63C8DB007A7EF8 /* Assets.xcassets */,
 				1A8817B11E63C8DB007A7EF8 /* LaunchScreen.storyboard */,
 				1A8817B41E63C8DB007A7EF8 /* Info.plist */,
@@ -283,6 +286,7 @@
 				1A466B221E66AE99005389C2 /* UIActivityIndicatorViewExtension.swift in Sources */,
 				1A8817A91E63C8DB007A7EF8 /* AppDelegate.swift in Sources */,
 				1AD56D081E6429AD00675836 /* UIButtonExtension.swift in Sources */,
+				1A035B3F1E9B64A400C32F6C /* BaseFunction.swift in Sources */,
 				1A97066B1E63D98400F7B60C /* UIImageViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
